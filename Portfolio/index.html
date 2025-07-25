@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="icon" href="images/headerimg.jpeg" style="border: 1px; border-radius: 300px;">
+    <title>Porfolio-Site</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <a href="#" class="port">Portfolio.</a>
+        
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-intro">
+        <h1>Haider Khan</h1>
+        <h2>I'm a <strong style="color: #00ffff; text-shadow: 0 0 18px #00ffff;">Developer!</strong></h2>
+        <!-- Introduction paragraph -->
+        <p>"Hey there! I'm a Computer Science student in <strong>UOG</strong> <br>
+            I an a developer with a passion for crafting efficient and user-friendly web applications.<br>
+            I enjoy turning ideas into reality through clean code and creative design.<br>
+            Whether it's building dynamic websites or solving complex programming challenges,<br>
+            I’m always eager to learn and improve. Take a look at my projects, and let’s connect!".</p>
+
+        <!-- Navigation buttons to different sections -->
+         <div class="btn-sec">
+            <a href="#aboutme" class="btn-home">Explore More</a>
+            <div class="media">
+                <a href="https://github.com/RanaKhan777" target="_blank"><img src="images/github.png" alt="github" width="15px" style="background-color: white; border: 1px; border-radius: 10px;"></a>
+                <a href="https://www.instagram.com/haider_rana_4/" target="_blank"><img src="images/insta.jpg" alt="github" width="15px" style="background-color: white; border: 1px; border-radius: 10px;"></a>
+                <a href="https://www.youtube.com/@Talk_Pulse" target="_blank"><img src="images/youtube.jpg" alt="Youtube" width="15px" style="background-color: white; border: 1px; border-radius: 10px;"></a>
+            </div>
+         </div>
+    </div>
+    <!-- inserting a profile picture -->
+     <div class="profile-pic">
+        <div class="pic-box">
+            <div class="pic-item">
+                <img src="images/profilepics1.png" alt="Profile Pic">
+            </div>
+        </div>
+     </div>
+
+  </section>
+
+  <section id="aboutme" class="about">
+    <h2 class="section-title-about">About Me</h2>
+    <div class="about-container">
+        <!-- Education -->
+        <div class="about-box">
+            <h3>Education</h3>
+            <p>Matriculation from<br>A+ School System<br></p>
+            <p>Intermidiate in ICS<br>Punjab College<br></p>
+            <p>Bachelor's in Computer Science <br> University of Gujrat</p>
+            <p>Currently 4th Semester</p>
+        </div>
+
+        <!-- Skills -->
+        <div class="about-box">
+            <h3>Skills</h3>
+            <p>Web Development <br> Html, CSS</p>
+            <p>Programming languages<br> Visual Basic, C, C++</p>
+            <p><center><strong>Hobbies</strong></center>
+                 <strong>Sports: </strong>Badminton, Cricket, Chess <br>
+                 <strong style="text-align: left">Others: </strong>Coding, Acting, Gaming</p>
+        </div>
+
+        <!-- Experience -->
+        <div class="about-box">
+            <h3>Experience</h3>
+            <p>Freelance Web Developer <br> Built websites for clients</p>
+            <p>Games <br> Build games like <br> snakeGame, TickTack, etc.</p>
+            
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h2 class="section-title-project">Projects</h2>
+    <div class="projects-list">
+        <div class="project-item">
+            <img src="images/ticktakproject.jpg" alt="Project Image" class="project-img">
+            <div class="project-content">
+                <h3>Tick Tac Toe Game</h3>
+                <p>This <strong">Tic Tac Toe</strong> game is developed using Assembly Language and runs in a DOS-based environment. It is a two-player game where users take turns marking spaces on a 3x3 grid. The program is implemented using low-level instructions to handle input, output, and game logic efficiently. It features a user-friendly interface with a simple text-based board, allowing players to enter their moves using the keyboard</p>
+                <a href="https://github.com/RanaKhan777/ProjectsforPortfolio" target="_blank" class="btn-project">View Project</a>
+            </div>
+        </div>
+        <div class="project-item">
+            <img src="images/carsystem-project.jpeg" alt="Project Image" class="project-img">
+            <div class="project-content">
+                <h3>Car Rental System</h3>
+                <p>The <strong>Car Management/Rental System </strong>  is a software application designed to streamline the process of renting and managing cars for customers and administrators. This system allows users to browse available cars, check rental prices, and book vehicles based on their preferences. Administrators can efficiently manage car inventory, update availability, and track rental transactions.</p>
+                <a href="https://github.com/RanaKhan777/Car-Rental-system-Dsa" target="_blank" class="btn-project">View Project</a>
+            </div>
+        </div>
+        <div class="project-item">
+            <img src="images/snakegame-project.jpeg" alt="Project Image" class="project-img">
+            <div class="project-content">
+                <h3>Snake Game 🐍</h3>
+                <p>Welcome to my Snake Game project, a classic arcade-style game built using C++ and console graphics. This project showcases my skills in game logic, real-time input handling, and efficient rendering to create a smooth, flicker-free experience.</p>
+                <a href="https://github.com/RanaKhan777/SnakeGame-C-" class="btn-project">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title-contact">Contact Me</h2>
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <form class="contact-form" method="POST" action="mailto: rkhaiderali4@gmail.com" 
+        enctype="text/plain">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn" >Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>Email: rkhaiderali4@gmail.com</p>
+            <p>Phone: +92 123 4567890</p>
+
+            <!-- Social Media -->
+            <div class="contact-socials">
+                <a href="https://github.com/RanaKhan777" target="_blank"><img src="images/github.png" alt="github" width="16px" ></a>
+                <a href="https://www.instagram.com/haider_rana_4/" target="_blank"><img src="images/insta.jpg" alt="github" width="16px"></a>
+                <a href="https://www.youtube.com/@Talk_Pulse" target="_blank"><img src="images/youtube.jpg" alt="Youtube" width="16px"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p>&copy; 2025 Haider Khan. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://github.com/RanaKhan777" target="_blank"><img src="images/github.png" alt="github" width="16px" ></a>
+            <a href="https://www.instagram.com/haider_rana_4/" target="_blank"><img src="images/insta-footer.png" alt="github" width="16px"></a>
+            <a href="https://www.youtube.com/@Talk_Pulse" target="_blank"><img src="images/youtube-footer.png" alt="Youtube" width="16px"></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
